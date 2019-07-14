@@ -1,5 +1,6 @@
 const mongoose = require('mongoose');
-const MONGO_URL = 'mongodb://juliana:juliana@ds157735.mlab.com:57735/heroku_95nqck4j';
+const MONGO_URL = 'mongodb://juliana:juliana22@ds135217.mlab.com:35217/heroku_kd6fzrlb';
+
 
 function connect () {
     mongoose.connect(MONGO_URL, {useNewUrlParser: true},
