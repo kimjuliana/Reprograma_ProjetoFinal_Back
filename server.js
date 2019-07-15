@@ -57,6 +57,5 @@ servidor.delete('/filmes/:id', (request, response) => {
         }
     })
 })
-
-servidor.listen(3000)
+servidor.listen(process.env.PORT || 5000)
 console.log("Servidor Funcionando")
